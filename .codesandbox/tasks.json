@@ -1,0 +1,86 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "name": "Install Dependencies",
+      "command": "yarn install"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "start": {
+      "name": "start",
+      "command": "yarn start",
+      "runAtStart": false
+    },
+    "build": {
+      "name": "build",
+      "command": "yarn build",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "yarn test",
+      "runAtStart": false
+    },
+    "eject": {
+      "name": "eject",
+      "command": "yarn eject",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "yarn clean",
+      "runAtStart": false
+    },
+    "build:modules": {
+      "name": "build:modules",
+      "command": "yarn build:modules",
+      "runAtStart": false
+    },
+    "build:bundles": {
+      "name": "build:bundles",
+      "command": "yarn build:bundles",
+      "runAtStart": false
+    },
+    "format": {
+      "name": "format",
+      "command": "yarn format",
+      "runAtStart": false
+    },
+    "test:lint": {
+      "name": "test:lint",
+      "command": "yarn test:lint",
+      "runAtStart": false
+    },
+    "dev:watch:modules": {
+      "name": "dev:watch:modules",
+      "command": "yarn dev:watch:modules",
+      "runAtStart": false
+    },
+    "dev:watch:bundles": {
+      "name": "dev:watch:bundles",
+      "command": "yarn dev:watch:bundles",
+      "runAtStart": false
+    },
+    "dev:serve": {
+      "name": "dev:serve",
+      "command": "yarn dev:serve",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "yarn dev",
+      "runAtStart": true,
+      "preview": {
+        "port": 8000
+      }
+    },
+    "prepublishOnly": {
+      "name": "prepublishOnly",
+      "command": "yarn prepublishOnly",
+      "runAtStart": false
+    }
+  }
+}
